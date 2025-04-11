@@ -17,7 +17,6 @@ Currently studying at **TEC Ballerup** while working on improving my **full-stac
 
 ## 🔨 Projects
 💡 **[Task Manager API](https://github.com/halimeekiz/task-manager-api)** – A CRUD API built with C# .NET and SQL  
-🌍 **[Portfolio Website](https://github.com/halimeekiz/portfolio)** – My personal developer portfolio (under construction)  
 🛠️ **[React Dashboard](https://github.com/halimeekiz/react-dashboard)** – A modern admin dashboard built with React  
 
 ## 🎓 Education
@@ -29,9 +28,8 @@ Currently studying at **TEC Ballerup** while working on improving my **full-stac
   *E-handel & IT*  
 
 ## 📫 Get in Touch
-- 💼 [LinkedIn](https://www.linkedin.com/in/halimeekizsen) (Update this link)  
-- 🌍 [Portfolio Website](https://yourwebsite.com) (Coming soon!)  
-- ✉️ [Email](mailto:your.email@example.com)  
+- 💼 [LinkedIn]([https://www.linkedin.com/in/halimeekizsen](https://www.linkedin.com/in/halime-ekiz-sen-6ab166aa/?trk=opento_sprofile_details)
+
 
 ---
 🚀 *Passionate about frontend and backend development. Open to collaboration and learning opportunities!*  
