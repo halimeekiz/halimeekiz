@@ -15,10 +15,6 @@ Currently studying at **TEC Ballerup** while working on improving my **full-stac
 - Learning **React for frontend development**  
 - Exploring **full-stack development**  
 
-## 🔨 Projects
-💡 **[Task Manager API](https://github.com/halimeekiz/task-manager-api)** – A CRUD API built with C# .NET and SQL  
-🛠️ **[React Dashboard](https://github.com/halimeekiz/react-dashboard)** – A modern admin dashboard built with React  
-
 ## 🎓 Education
 - **TEC - Technical Education Copenhagen** (2024 - 2029)  
   *Data og Kommunikation med speciale i programmering*  
