@@ -5,8 +5,8 @@ I'm an aspiring **backend and frontend developer** with a strong foundation in *
 Currently studying at **TEC Ballerup** while working on improving my **full-stack development skills**.
 
 ## 🛠️ Skills
-- **Backend:** C# | .NET | SQL | Entity Framework Core  
-- **Frontend:** HTML | CSS | JavaScript | React  
+- **Backend:** C# |
+- **Frontend:** HTML | CSS | 
 - **Version Control:** Git | GitHub  
 - **Web Development:** WordPress | ASP.NET  
 
