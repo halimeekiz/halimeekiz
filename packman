@@ -1,0 +1,51 @@
+name: Generate Pacman Animation
+
+on:
+  schedule:
+    - cron: '0 */12 * * *'  # Every 12 hours at minute 0
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate pacman-contribution-graph.svg
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: halimeekiz
+        env:
+          GITHUB_TOKEN: ${{ secrets.PACMAN_TOKEN || secrets.GITHUB_TOKEN }}  # Fallback to GITHUB_TOKEN if PACMAN_TOKEN not set
+
+      - name: Debug file existence
+        run: |
+          ls -la dist
+          if [ -f dist/pacman-contribution-graph.svg ]; then
+            echo "Light theme file exists"
+          else
+            echo "Error: dist/pacman-contribution-graph.svg not found"
+            exit 1
+          fi
+          if [ -f dist/pacman-contribution-graph-dark.svg ]; then
+            echo "Dark theme file exists"
+          else
+            echo "Error: dist/pacman-contribution-graph-dark.svg not found"
+            exit 1
+          fi
+
+      - name: Commit and push to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
